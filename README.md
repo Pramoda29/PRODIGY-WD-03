@@ -1,43 +1,31 @@
 # PRODIGY-WD-03
 
-# PRODIGY_WD_02
+Project Description
+The Tic-Tac-Toe Web Application is a classic two-player game where the objective is to place three of your markers (X or O) in a row on a 3x3 grid. The game is built using HTML for structure, CSS for styling, and JavaScript for the interactive game logic. Players take turns clicking on the grid cells to place their markers. The application checks for a winner after each move and announces the result, whether it's a win, a draw, or the continuation of the game.
 
-Description
-The task is to create a stopwatch web application using HTML, CSS, and JavaScript. The application includes features to start, stop, reset, and record lap times. The user interface consists of a display for the elapsed time, control buttons for interacting with the stopwatch, and a section to list recorded lap times.
+Rules
+Game Setup:
 
+The game board consists of a 3x3 grid of squares.
+One player is assigned "X" and the other "O".
+Gameplay:
 
-Usage
-Starting the Stopwatch:
+Players take turns clicking on an empty cell to place their marker.
+A cell cannot be selected more than once in a single game.
+The game checks for a win after each move. A win occurs when a player has three markers in a row, column, or diagonal.
+Winning and Drawing:
 
+The game ends when one player has three markers in a row (horizontal, vertical, or diagonal).
+If all nine cells are filled without a winner, the game is declared a draw.
+Restarting the Game:
 
-Click the "Start" button to begin the stopwatch.
-The button text will change to "Stop" indicating that the stopwatch is running.
-Stopping the Stopwatch:
-
-
-Click the "Stop" button to pause the stopwatch.
-The button text will change back to "Start".
-Resetting the Stopwatch:
-
-Click the "Reset" button to reset the stopwatch to 00:00:00.
-All recorded lap times will be cleared.
-Recording Lap Times:
-
-
-Click the "Lap" button to record the current elapsed time.
-The lap times will be displayed below the control buttons.
-
-
-Result
-When you open the index.html file in a web browser, you will see a clean, user-friendly interface with the following elements:
-
-
-A display area showing the current elapsed time.
-Control buttons labeled "Start", "Stop", "Reset", and "Lap".
-A section below the control buttons where lap times will be listed.
-Using the control buttons, you can start and stop the stopwatch, reset the elapsed time, and record lap times. The elapsed time is displayed in hours, minutes, and seconds, updating in real-time while the stopwatch is running.
-
-
+After the game ends (win or draw), players can restart the game by clicking a "Restart" button, which resets the board.
 Conclusion
+The Tic-Tac-Toe Web Application is a fun and interactive game that can be enjoyed by users of all ages. This project is an excellent way to practice front-end development skills, particularly in handling user interactions, managing game state, and implementing logic to check for winning conditions. The game provides immediate feedback to users, making it an engaging way to learn and apply web development concepts.
 
-This project demonstrates how to create a functional stopwatch web application using basic web technologies. By combining HTML for structure, CSS for styling, and JavaScript for functionality, we built an interactive and user-friendly application. The project showcases fundamental web development skills, including DOM manipulation, event handling, and interval timing. This stopwatch can be extended with additional features or customized further, providing a solid foundation for more complex web applications.
+Uses
+Entertainment: A simple and classic game that provides quick entertainment for users.
+Learning Tool: It serves as an educational example for those learning HTML, CSS, and JavaScript, demonstrating how to create interactive web applications.
+AI Development: This game can be expanded to include an AI opponent, providing a more challenging gameplay experience and a deeper understanding of algorithms and game theory.
+Teaching Logic and Strategy: Tic-Tac-Toe can be used to teach basic concepts of logic, strategy, and decision-making, making it suitable for educational purposes in classrooms or workshops.
+Web Development Portfolio: A completed Tic-Tac-Toe project can be added to a web developer's portfolio to showcase their skills in building interactive applications.
